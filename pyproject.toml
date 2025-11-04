@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "github-patch-scraper"
-version = "0.1.0"
-description = "Scraper for GitHub .patch URLs"
+version = "1.0.0"
+description = "Scraper for GitHub .patch URLs with automatic commit discovery"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
