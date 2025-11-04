@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-patch-scraper"
+version = "0.1.0"
+description = "Scraper for GitHub .patch URLs"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.24.0",
+    "unidiff>=0.7.4",
+    "typer[all]>=0.9.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.2",
+    "pytest-asyncio>=0.20.0",
+]
+
+[project.scripts]
+scraper = "scraper.cli:app"
