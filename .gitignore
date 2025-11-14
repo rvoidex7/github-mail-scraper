@@ -27,3 +27,4 @@ htmlcov/
 venv/
 ENV/
 .env
+token.txt

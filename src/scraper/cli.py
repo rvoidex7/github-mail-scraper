@@ -206,8 +206,3 @@ async def _auto_fetch_patches(
 
 if __name__ == "__main__":
     app()
-```
-
-
-if __name__ == "__main__":
-    app()
